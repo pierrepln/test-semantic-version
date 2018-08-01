@@ -1,1 +1,1 @@
-exports.printTest = function(){console.log('Hello world 0.0.1');}
+exports.printTest = function(){console.log('Hello world 1.0.1');}
