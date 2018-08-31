@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Warning: no test specified\"",
     "semantic-release": "semantic-release",
-    "travis-deploy-once": "travis-deploy-once"
+    "travis-deploy-once": "travis-deploy-once",
+    "cz": "git-cz"
   },
   "author": "pierrepln",
   "license": "ISC",
@@ -21,7 +22,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
