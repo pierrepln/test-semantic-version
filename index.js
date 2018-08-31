@@ -1,3 +1,7 @@
 exports.printTest = function(){
-    console.log('This may be the way to do things, from feature/new-test');
+    console.log('This is printtest');
+}
+
+exports.printAnotherTest = function(){
+    console.log('Just printAnotherTest');
 }
